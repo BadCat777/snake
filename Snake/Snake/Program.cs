@@ -24,15 +24,9 @@ namespace Snake
 
             //Отрисовка точек
 
-
-            HorizontalLine hline = new HorizontalLine(4, 8, 6, '+');
-            hline.Drow();
-
-            VerticalLine vline = new VerticalLine(2, 4, 10, '!');
-            vline.Drow();
-
-            Console.ReadLine();
-
+            Point p = new Point(4, 5, '*');
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            
         }
     }
 }
