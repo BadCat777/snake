@@ -48,6 +48,10 @@ namespace Snake
                     snake.HandKey(key.Key);
                 }
             }
+            Point gameOver = new Point(32, 12, ' ');
+            gameOver.Draw();
+            Console.WriteLine("ИГРА ОКОНЧЕНА");
+            Console.ReadLine();
         }
     }
 }
